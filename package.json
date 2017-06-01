@@ -1,0 +1,15 @@
+{
+  "name": "record-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot built on-top of Node.js that records channel messages.",
+  "main": "bot.js",
+  "author": "Techfoxis",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "nodemon bot.js"
+  },
+  "dependencies": {
+    "eris": "^0.7.0"
+  }
+}
