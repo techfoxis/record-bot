@@ -5,7 +5,7 @@ const fs = require('fs')
 
 const records = new Map()
 
-const bot = new Eris.CommandClient('MzE5NTg4Njc0OTM5Mzg3OTA2.DBDIAQ.XS_x_KC5aNg0CP5M0qE6k_-hCA0', {}, {
+const bot = new Eris.CommandClient('INSERT_TOKEN', {}, {
     prefix: '!',
     disableEveryone: false,
     name: 'Record Bot',
